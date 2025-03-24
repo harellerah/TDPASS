@@ -131,16 +131,6 @@ Prerequisites for Testing
 
   Maven and Java 17 (already set up from the run instructions).
 
-### Running All Tests
-
-Execute all tests using Maven:
-``` bash
-    mvn test
-```
-
-This runs both unit tests (e.g., MovieServiceTest) and integration tests (e.g., MovieControllerTest).
-Output will show test results in the terminal (e.g., "Tests run: X, Failures: 0").
-
 ### Running Specific Tests
 
 To run a specific test class (e.g., PopcornPalaceApplicationTests):
