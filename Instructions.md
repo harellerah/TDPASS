@@ -79,7 +79,7 @@ The API provides endpoints for managing movies, showtimes, and bookings. Use a t
 
 #### Movies
 
-- Get All Movies: GET /movies/all 
+- Get All Movies: `GET /movies/all`
   - Response: `List of movies (e.g., [{"id": 1, "title": "Inception", ...}])`
 - Add a Movie: `POST /movies` 
   - Body: `{"title": "Inception", "genre": "Sci-Fi", "duration": 148, "rating": 8.8, "releaseYear": 2010}`
@@ -129,9 +129,9 @@ The API provides endpoints for managing movies, showtimes, and bookings. Use a t
 The project includes unit and integration tests to verify functionality. Tests are located in src/test/java/com/xai/popcornpalace.
 Prerequisites for Testing
 
-    Maven and Java 17 (already set up from the run instructions).
+  Maven and Java 17 (already set up from the run instructions).
 
-Running All Tests
+### Running All Tests
 
 Execute all tests using Maven:
 ``` bash
@@ -143,9 +143,9 @@ Output will show test results in the terminal (e.g., "Tests run: X, Failures: 0"
 
 ### Running Specific Tests
 
-To run a specific test class (e.g., MovieControllerTest):
+To run a specific test class (e.g., PopcornPalaceApplicationTests):
 
-    mvn test -Dtest=MovieControllerTest
+    mvn test -Dtest=PopcornPalaceApplicationTests
 Test Coverage
 
 - **Unit Tests**: Validate service layer logic (e.g., adding movies, checking showtime overlaps).
